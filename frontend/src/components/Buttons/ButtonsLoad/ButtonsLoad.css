@@ -1,0 +1,7 @@
+.button-load {
+    padding: 10px 20px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
+    color: rgb(78, 78, 78);
+    user-select: none;
+}

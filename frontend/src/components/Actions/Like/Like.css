@@ -1,0 +1,20 @@
+.like {
+    display: flex;
+    align-items: center;
+}
+
+.like::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(./Image/like.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.span-desc {
+    padding: 10px 5px;
+    line-height: 0;
+}
