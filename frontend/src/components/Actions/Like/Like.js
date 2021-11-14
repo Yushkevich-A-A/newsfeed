@@ -15,7 +15,7 @@ function Like(props) {
 }
 
 Like.propTypes = {
-
+    count: PropTypes.number
 };
 
 export default Like;

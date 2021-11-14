@@ -11,13 +11,14 @@ function PagePosts(props) {
 
     useEffect(()=> {
         dispatch(serviceFetchInitRequest());
+        // eslint-disable-next-line
     }, []);
 
     useEffect(()=>{
         if (!error) {
             return;
         }
-        
+
         setTimeout(() => {
             if (lastId) {
                 dispatch(serviceFetchRequest(lastId))
@@ -25,6 +26,7 @@ function PagePosts(props) {
                 dispatch(serviceFetchInitRequest());
             }
         }, 3 * 1000);
+        // eslint-disable-next-line
     }, [error])
 
     const handleClick = () => {

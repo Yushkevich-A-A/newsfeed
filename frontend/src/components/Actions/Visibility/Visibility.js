@@ -18,7 +18,7 @@ function Visibility(props) {
 }
 
 Visibility.propTypes = {
-
+    count: PropTypes.number
 };
 
 export default Visibility;

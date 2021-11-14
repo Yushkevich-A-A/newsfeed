@@ -15,7 +15,7 @@ function Comment(props) {
 }
 
 Comment.propTypes = {
-
+    count: PropTypes.number
 };
 
 export default Comment;

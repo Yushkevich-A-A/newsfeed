@@ -13,7 +13,6 @@ moment().local('ru');
 
 function Post(props) {
     const { item } = props;
-    console.log(item);
 
     const likes = item.likes.count;
     const comments = item.comments.count;

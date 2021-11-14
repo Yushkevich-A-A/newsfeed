@@ -15,7 +15,7 @@ function Reply(props) {
 }
 
 Reply.propTypes = {
-
+    count: PropTypes.number
 };
 
 export default Reply;

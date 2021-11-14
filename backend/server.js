@@ -31,9 +31,7 @@ function fortune(ctx, body = null, status = 200) {
 
 router.get('/api/news', async (ctx, next) => {
     const {lastSeenId} = ctx.request.query;
-    console.log(lastSeenId);
     if (lastSeenId === undefined) {
-        console.log('запрос пришел');
         return fortune(ctx, news.slice(0, limit)); 
     }
 

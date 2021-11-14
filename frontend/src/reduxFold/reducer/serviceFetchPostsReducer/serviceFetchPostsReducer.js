@@ -31,7 +31,6 @@ const serviceFetchPostsReducer = (state = initState, action) => {
                     lastId: lastId, 
                     loading: false, 
                     error: null };
-            // return { ...state };
         default: 
             return { ...state };
     }

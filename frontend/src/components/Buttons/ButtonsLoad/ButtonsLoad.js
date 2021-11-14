@@ -13,7 +13,7 @@ function ButtonsLoad(props) {
 }
 
 ButtonsLoad.propTypes = {
-
+    handleClick: PropTypes.func
 };
 
 export default ButtonsLoad;
